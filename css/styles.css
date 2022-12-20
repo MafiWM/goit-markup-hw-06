@@ -70,8 +70,6 @@ header .link.current-page {
   color: var(--title-text-color);
   font-size: var(--primary-font-size);
   line-height: var(--primary-line-height);
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .navigation .link {
   font-weight: 700;
@@ -115,8 +113,7 @@ body {
   transition: color var(--main-transition);
 }
 .logo-web {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  transition: color var(--main-transition);
 }
 
 .logo-studio {
