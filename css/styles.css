@@ -564,4 +564,5 @@ body {
   border-color: var(--footer-text-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
+  cursor: pointer;
 }
