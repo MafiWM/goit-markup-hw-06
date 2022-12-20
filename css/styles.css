@@ -35,6 +35,23 @@ h3 {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
+header .link.current-page {
+  position: relative;
+  display: inline-block;
+  color: var(--accent);
+}
+
+.current-page::after {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  display: block;
+  top: calc(24px + 24px - 4px);
+  background-color: var(--accent);
+  border-radius: 2px;
+}
+
 .container {
   width: 1158px;
   padding-left: 15px;
@@ -501,8 +518,11 @@ body {
   transition: color var(--main-transition);
 }
 
-.flex-container {
+.container-header {
   display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .filter {
