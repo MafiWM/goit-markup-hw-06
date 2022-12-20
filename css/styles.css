@@ -6,6 +6,7 @@
   --primary-letter-spacing: 0.02em;
   --primary-line-height: 1.5;
   --primary-text-color: #434455;
+  --secondary-background-color: #404bbf;
   --secondary-font-size: 20px;
   --secondary-font-weight: 800;
   --secondary-line-height: 1.2;
@@ -159,7 +160,7 @@ body {
 .hero-button:hover,
 .hero-button:focus,
 .hero-button:active {
-  background-color: #404bbf;
+  background-color: var(--secondary-background-color);
   transition: background-color var(--main-transition);
 }
 .list {
@@ -265,7 +266,7 @@ body {
 
 .link-social-media:hover,
 .link-social-media:focus {
-  background-color: #404bbf;
+  background-color: var(--secondary-background-color);
   transition: background-color var(--main-transition);
 }
 
@@ -295,7 +296,7 @@ body {
 }
 
 .buttonsall {
-  color: #ffffff;
+  color: var(--primary-background-color);
 }
 
 .buttons:hover,
@@ -568,4 +569,15 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
   cursor: pointer;
+  transition: background-color var(--main-transition);
+}
+
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+  background-color: var(--secondary-background-color);
+}
+
+.modal-close-btn:hover .modal-close-btn-icon,
+.modal-close-btn:focus .modal-close-btn-icon {
+  fill: var(--primary-background-color);
 }
