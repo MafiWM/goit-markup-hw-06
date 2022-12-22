@@ -70,6 +70,7 @@ header .link.current-page {
   color: var(--title-text-color);
   font-size: var(--primary-font-size);
   line-height: var(--primary-line-height);
+  transition: color var(--main-transition);
 }
 .navigation .link {
   font-weight: 700;
@@ -87,7 +88,6 @@ header .link.current-page {
 .contacts .link:hover,
 .navigation .link:active {
   color: var(--accent);
-  transition: color var(--main-transition);
 }
 
 body {
@@ -124,7 +124,6 @@ body {
 .logo-studio:hover,
 .logo-studio:focus {
   color: var(--title-text-color);
-  transition: color var(--main-transition);
 }
 .hero {
   background-color: var(--title-text-color);
