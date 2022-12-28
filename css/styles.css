@@ -645,3 +645,8 @@ body {
   text-align: left;
   color: var(--secondary-text-color);
 }
+
+.modal-input {
+  display: flex;
+  position: relative;
+}
