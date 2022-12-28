@@ -646,6 +646,12 @@ body {
   color: var(--secondary-text-color);
 }
 
+.modal-icon {
+  position: absolute;
+  fill: var(--title-text-color);
+  transition: fill var(--main-transition);
+}
+
 .modal-input {
   display: flex;
   position: relative;
