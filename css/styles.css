@@ -650,9 +650,10 @@ body {
 
 .modal-icon {
   position: absolute;
-  fill: var(--title-text-color);
+ bottom: 14px;
+  left: 19px;
+    fill: var(--title-text-color);
   transition: fill var(--main-transition);
-  align-items: center;
 }
 
 .modal-input {
