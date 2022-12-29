@@ -651,10 +651,10 @@ body {
   fill: var(--title-text-color);
   transition: fill var(--main-transition);
   align-items: center;
-  margin-left: 16px;
 }
 
 .modal-input {
   display: flex;
   position: relative;
+  padding-left: 16px;
 }
