@@ -660,3 +660,9 @@ body {
   display: flex;
   position: relative;
 }
+
+.modal-form-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
