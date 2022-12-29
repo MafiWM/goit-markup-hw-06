@@ -641,10 +641,11 @@ body {
   font-family: var(--primary-font);
   font-size: 12px;
   font-weight: 400;
-  line-height: 16px;
+  line-height: var(--secondary-line-height);
   letter-spacing: 0.04em;
   text-align: left;
   color: var(--secondary-text-color);
+  margin-bottom: 4px;
 }
 
 .modal-icon {
