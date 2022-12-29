@@ -701,7 +701,12 @@ body {
 }
 
 .modal-form-check {
-  
+  display: flex;
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+  border: 1.25px solid #2e2f42;
+  border-radius: 2px;
 }
 
 .modal-form-check-desc {
