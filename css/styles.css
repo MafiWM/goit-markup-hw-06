@@ -661,15 +661,17 @@ body {
 
 .modal-icon {
   position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block;
   fill: var(--title-text-color);
   transition: fill var(--main-transition);
-  bottom: 14px;
-  left: 19px;
+  left: 16px;
 }
 
 .modal-input {
-  display: flex;
   position: relative;
+  display: flex;
 }
 
 .modal-form-field {
