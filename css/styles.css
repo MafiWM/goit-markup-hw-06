@@ -488,9 +488,9 @@ body {
   display: inline-flex;
   width: 168px;
   height: 88px;
-  border: 1px solid var(--secondary-text-color: );
+  border: 1px solid var(--secondary-text-color);
   border-radius: 4px;
-  color: var(--secondary-text-color: );
+  color: var(--secondary-text-color);
   justify-content: center;
   align-items: center;
   transition: color var(--main-transition), border-color var(--main-transition);
