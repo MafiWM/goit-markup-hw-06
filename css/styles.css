@@ -731,11 +731,22 @@ body {
 }
 
 .modal-form-check:checked + .modal-form-check-desc::before {
-background-color: var(--accent);
-border: 1.25px solid var(--accent);
+  background-color: var(--accent);
+  border: 1.25px solid var(--accent);
   border-radius: 2px;
   background-image: url(../images/icon-checkmark-modal.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-origin: border-box;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-origin: border-box;
+}
+
+.visualy-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
 }
