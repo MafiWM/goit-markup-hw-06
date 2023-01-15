@@ -797,6 +797,7 @@ body {
 .subscribe-email {
   display: flex;
   gap: 24px;
+  margin-top: 16px;
 }
 
 .subscribe-label {
@@ -806,7 +807,6 @@ body {
   line-height: var(--primary-line-height);
   letter-spacing: var(--primary-letter-spacing);
   color: var(--primary-background-color);
-  margin-bottom: 16px;
 }
 
 .subscribe-input {
