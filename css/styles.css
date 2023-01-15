@@ -740,10 +740,14 @@ body {
   background-color: var(--accent);
   border: 1.25px solid var(--accent);
   border-radius: 2px;
-  background-image: url(../images/icon-checkmark-modal.svg);
+  background-image: url(../images/checkmark.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-origin: border-box;
+}
+
+.privacy-policy {
+  color: var(--accent);
 }
 
 .visualy-hidden {
