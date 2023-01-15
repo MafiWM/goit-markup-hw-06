@@ -794,16 +794,13 @@ body {
   gap: 24px;
 }
 
-.subscribe-email-title {
+.subscribe-label {
   font-family: var(--primary-font);
   font-weight: 600;
   font-size: var(--primary-font-size);
   line-height: var(--primary-line-height);
   letter-spacing: var(--primary-letter-spacing);
   color: var(--primary-background-color);
-}
-
-.subscribe-label {
   margin-bottom: 16px;
 }
 
